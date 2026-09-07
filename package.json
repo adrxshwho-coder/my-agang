@@ -1,0 +1,18 @@
+{
+  "name": "mc-50-bot-squad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Role-based Minecraft survival helper squad built with Mineflayer.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.32.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-collectblock": "^1.3.1",
+    "minecraft-data": "^3.100.0",
+    "vec3": "^0.1.10"
+  }
+}
